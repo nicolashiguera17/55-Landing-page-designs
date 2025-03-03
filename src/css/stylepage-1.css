@@ -33,7 +33,7 @@ body {
     font-size: 26px
     
 }
-.welcome {
+.welcome div button {
     width: 158px;
     height: 54px;
     border-radius: 18px;
@@ -44,4 +44,23 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
+}
+
+.fila-1  {
+    width: 1312px;
+    height: 288px;
+    position: absolute;
+    top: 480px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.fila-1 div {
+    width: 100%;
+
+}
+.fila-1 div img {
+    height: 288px;
+    position: relative;
+    border-radius: 16px;
+    margin-right: 9px;
 }
