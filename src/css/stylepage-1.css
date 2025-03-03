@@ -4,3 +4,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: var(--color-1);
+}
+
+.welcome {
+    width: 610px;
+    height: 355px;
+    position: absolute;
+    margin-top: 64px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.welcome h1 {
+    text-align: center;
+    color: var(--color-2);
+    font-family: "Avenir-Heavy";
+    font-size: 64px
+}
+.welcome p {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: var(--color-2);
+    opacity: 80%;
+    font-family: "Avenir-Roman";
+    font-size: 26px
+    
+}
+.welcome {
+    width: 158px;
+    height: 54px;
+    border-radius: 18px;
+    background-color: var(--color-2);
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
