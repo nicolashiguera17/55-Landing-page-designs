@@ -4,3 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.mueble{
+    padding-top: 0px;
+    display: flex;
+}
+.mueble img{
+    position: absolute;
+    top: 67px;
+    padding-top: 0px;
+}
