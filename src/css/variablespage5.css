@@ -9,12 +9,12 @@
 }
 
 @font-face {
-    font-family: "avenir.heavy";
-    src: url(../storage/fonts/Avenir-Heavy.otf);
+    font-family: "avenirheavy";
+    src: url(../storage/fonts/AvenirFontFamily/AvenirLTStd-Heavy.otf);
 
 }
 
 @font-face {
-    font-family: "avernir.roman";
+    font-family: "avernirroman";
     src: url(../storage/fonts/Avenir-Roman.otf);
 }

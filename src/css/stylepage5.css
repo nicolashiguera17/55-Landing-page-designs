@@ -1,11 +1,10 @@
-@import url(variablesPage5.css);
+@import url(variablespage5.css);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    font-family: "Avenir-Heavy";
     color: var(--color-2);
     display: flex;
     flex-direction: column;
@@ -20,6 +19,9 @@ body {
     display: flex;
     justify-self: flex-start;
     margin-top: 64px;
+    
+    font-family: "avenirheavy";
+   
 
 }
 
@@ -39,6 +41,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     color: var(--color-2);
+  font-family: "avernirroman";
 }
 
 .fragmentos-1 .number {
@@ -47,16 +50,19 @@ body {
 
 }
 
-.fragmentos-1.card-text {
+.fragmentos-1 text {
     width: 418px;
     height: 132px;
     color: var(--color-2);
     opacity: 80%;
     font-size: 24px;
-    font-family: "avernir.roman";
+   font-family: "avernirroman";
+   background-color: blueviolet;
+   
 }
 
 .fragmentos-1 .card-image {
     width: 400px;
     height: 345px;
+    margin-top: 20px;
 }
