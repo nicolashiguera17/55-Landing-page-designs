@@ -47,12 +47,12 @@
     bottom: 0;
 }
 .paisaje_1{
-    width: 408px;
+    width: 40008px;
     height: 480px;
     left: 525px;
     top: 65px;
     position: absolute;
-    margin-top: -68px;
+    margin-top: 0px;
 }
 
 .paisaje_2{
@@ -62,3 +62,38 @@
     left: 968px;
     top: 217px;
 }
+
+.paisaje_2-1{
+    position: absolute;
+    display: flex;
+    width: 1316px;
+    gap: 40px;
+    height: 440px;
+    left: 64px;
+    bottom: 63px;
+    align-items: center;
+    
+}
+
+.paisaje-2{
+    width: 412px;
+    height: 438.16px;
+    top: 59px;
+    position: relative;
+}
+
+.paisaje-2 img{
+    width: 412px;
+    height: 379.16pxpx;
+}
+
+.paisaje-2 span {
+    position: absolute;
+    top: -60px;
+    left: 10px;
+    font-size: 40px;
+    font-family: "Avenir-Heavy";
+    padding: 2px 6px;
+    color: var(--color-2);
+    opacity: 25%;
+  }
