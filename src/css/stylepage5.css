@@ -22,3 +22,41 @@ body {
     margin-top: 64px;
 
 }
+
+.fragmentos {
+    width: 1312px;
+    height: 549px;
+    display: flex;
+    justify-items: center;
+    gap: 56px;
+    margin-top: 69px;
+}
+
+.fragmentos-1{
+    width: 400px;
+    height: 549px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: var(--color-2);
+}
+
+.fragmentos-1 .number {
+    font-size: 32px; 
+    opacity: 55%;
+
+}
+
+.fragmentos-1.card-text {
+    width: 418px;
+    height: 132px;
+    color: var(--color-2);
+    opacity: 80%;
+    font-size: 24px;
+    font-family: "avernir.roman";
+}
+
+.fragmentos-1 .card-image {
+    width: 400px;
+    height: 345px;
+}
