@@ -1,0 +1,113 @@
+@import url(variablespage4.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mueble{
+    padding-top: 0px;
+    display: flex;
+}
+.mueble img{
+    position: absolute;
+    top: 67px;
+    padding-top: 0px;
+}
+
+.article__container{
+    display: flex;
+    width: 500px;
+    height: 415px;
+    position: absolute;
+    left: 828px;
+    top: 82px;
+}
+
+.text-content {
+    margin-bottom: 20px;
+    align-items: flex-start;
+    
+}
+.text-content h1 {
+    font-size: 88px;
+    color: var(--color-2);
+    display: flex;
+    font-size: 64px;
+    align-items: flex-start;
+    font-family: "Avenir.roman";
+    
+}
+.text-content p {
+    font-size: 25px;
+    color: var(--color-2);
+    line-height: 1.4;
+    opacity: 80%;   
+    font-family: "Avenir.roman";
+    gap: 32px;
+}
+.text-content .btn {
+    padding: 12px 25px;
+    background-color: var(--color-2);
+    color: var(--color-1);
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 17px;
+    
+}
+
+.article__container2 {
+    display: flex;
+    width: 500px;
+    height: 334px;
+    position: absolute;
+    left: 828px;
+    top: 538px;
+    gap: 40px;
+}
+
+.text-content1 {
+    margin-bottom: 20px;
+    align-items: flex-start;
+    
+}
+
+.text-content1 p {
+    display: flex;
+    font-size: 24px;
+    color: var(--color-2);
+    line-height: 1.4;
+    opacity: 80%;   
+    font-family: "Avenir-Roman";
+    line-height: 32.78px;
+    font-family: "Avenir.roman";
+}
+
+#number{
+    font-size: 32px;
+    font-family: "Avenir-Black";
+}
+
+.text-content2 {
+    margin-bottom: 20px;
+    align-items: flex-start;
+    position: absolute;
+    top: 240px;
+    
+}
+
+.text-content2 p {
+    display: flex;
+    font-size: 24px;
+    color: var(--color-2);
+    line-height: 1.4;
+    opacity: 80%;   
+    font-family: "Avenir-Roman";
+    line-height: 32.78px;
+}
+
+
+
+
+
