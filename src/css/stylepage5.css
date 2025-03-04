@@ -4,3 +4,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: "Avenir-Heavy";
+    color: var(--color-2);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    width: 531px;
+    height: 208px;
+    font-size: 44px;
+    display: flex;
+    justify-self: flex-start;
+    margin-top: 64px;
+
+}
