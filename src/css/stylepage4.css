@@ -89,3 +89,25 @@
     font-family: "Avenir-Black";
 }
 
+.text-content2 {
+    margin-bottom: 20px;
+    align-items: flex-start;
+    position: absolute;
+    top: 240px;
+    
+}
+
+.text-content2 p {
+    display: flex;
+    font-size: 24px;
+    color: var(--color-2);
+    line-height: 1.4;
+    opacity: 80%;   
+    font-family: "Avenir-Roman";
+    line-height: 32.78px;
+}
+
+
+
+
+
