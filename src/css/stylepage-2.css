@@ -46,3 +46,19 @@
     position: absolute;
     bottom: 0;
 }
+.paisaje_1{
+    width: 408px;
+    height: 480px;
+    left: 525px;
+    top: 65px;
+    position: absolute;
+    margin-top: -68px;
+}
+
+.paisaje_2{
+    position: absolute;
+    width: 408px;
+    height: 480px;
+    left: 968px;
+    top: 217px;
+}
