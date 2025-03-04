@@ -4,3 +4,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: "Avenir-Heavy";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--color-1);
+    margin: 0;
+}
+
+.texto {
+    width: 1440px;
+    height: 1204px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.texto {
+    margin-bottom: 20px;
+}
+.texto h1 {
+    font-size: 88px;
+    color: var(--color-2);
+    margin-left: 64px;
+    margin-top: 122px;
+}
+.texto p {
+    font-size: 25px;
+    color: var(--color-2);
+    line-height: 1.4;
+    opacity: 80%;
+    margin-left: 851px;
+    margin-right: 76px;
+    margin-top: -106px;
+    font-family: "Avenir-Roman";
+}
+.texto .btn {
+    padding: 12px 25px;
+    background-color: var(--color-2);
+    color: var(--color-1);
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    margin-left: 851px;
+    margin-top: 16px;
+}
