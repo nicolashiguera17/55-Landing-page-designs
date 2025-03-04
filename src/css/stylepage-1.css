@@ -1,0 +1,97 @@
+@import url(variablespage-1.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-1);
+}
+
+.welcome {
+    width: 610px;
+    height: 355px;
+    position: absolute;
+    margin-top: 64px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.welcome h1 {
+    text-align: center;
+    color: var(--color-2);
+    font-family: "Avenir-Heavy";
+    font-size: 64px
+}
+.welcome p {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: var(--color-2);
+    opacity: 80%;
+    font-family: "Avenir-Roman";
+    font-size: 26px
+    
+}
+.welcome  button{
+    width: 158px;
+    height: 54px;
+    border-radius: 18px;
+    background-color: var(--color-2);
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+.fila-1  {
+    width: 1312px;
+    height: 288px;
+    position: absolute;
+    top: 480px;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+.fila-1 img {
+    width: 20vw;
+
+}
+.fila-1 div img {
+    height: 288px;
+    position: relative;
+    border-radius: 16px;
+    margin-right: 9px;
+}
+.f1{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.fila-2 img {
+    width: 20vw;
+}
+.fila-2 div img{
+    height: 288px;
+    position: relative;
+    border-radius: 16px;
+    margin-right: 9px;
+    margin-top: -25px;
+}
+.f2{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+}
