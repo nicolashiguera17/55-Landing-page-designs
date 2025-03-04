@@ -4,10 +4,10 @@
 }
 @font-face {
     font-family: "Avenir-Heavy";
-    src: url(../storage/font/Avenir-Heavy.otf);
+    src: url(../storage/fonts/AvenirLTStd-Heavy.otf);
 }
 
 @font-face {
     font-family: "Avenir-Roman";
-    src: url(../storage/font/Avenir-Roman.otf);
+    src: url(../storage/fonts/AvenirLTStd-Roman.otf);
 }
