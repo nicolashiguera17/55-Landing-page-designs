@@ -12,3 +12,8 @@
     src: url(../storage/fonts/AvenirLTStd-Heavy.otf);
 }
 
+@font-face {
+    font-family: "Avenir-Black";
+    src: url(../storage/fonts/AvenirLTStd-Black.otf);
+}
+

@@ -57,3 +57,35 @@
     
 }
 
+.article__container2 {
+    display: flex;
+    width: 500px;
+    height: 334px;
+    position: absolute;
+    left: 828px;
+    top: 538px;
+    gap: 40px;
+}
+
+.text-content1 {
+    margin-bottom: 20px;
+    align-items: flex-start;
+    
+}
+
+.text-content1 p {
+    display: flex;
+    font-size: 24px;
+    color: var(--color-2);
+    line-height: 1.4;
+    opacity: 80%;   
+    font-family: "Avenir-Roman";
+    line-height: 32.78px;
+    font-family: "Avenir.roman";
+}
+
+#number{
+    font-size: 32px;
+    font-family: "Avenir-Black";
+}
+
