@@ -1,0 +1,23 @@
+:root{
+    --color-1: #ffffff;
+    --color-2: #49342F;
+    --button: #FFDE81;
+}
+
+@font-face {
+    font-family: "AvenirLTStd-Black";
+    src: url(../storage/fonts/AvenirLTStd-Black.otf);
+}
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(../storage/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Light";
+    src: url(../storage/fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/fonts/Poppins/Poppins-Regular.ttf);
+}
