@@ -1,6 +1,27 @@
-@import url(variablespage-1.css);
+@import url(variablespage7.css);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.section__text {
+    width: 833px;
+    height: 176px;
+    margin-top: 64px;
+    margin-left: 64px;
+}
+.section__text h1{
+    font-size: 72px;
+    font-family: "AvenirLTStd-Heavy";
+    color: var(--color-2);
+}
+.section__images{
+    width: 1312px;
+    height: 559px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-left: 64px;
+
 }
