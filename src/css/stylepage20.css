@@ -1,0 +1,139 @@
+@import url(variablespage20.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section__list {
+    display: flex;
+    position: absolute;
+    width: 878px;
+    height: 188px;
+    top: 702px;
+    left: 281px;
+    border-radius: 80px;
+    gap: 8px;
+    padding-top: 24px;
+    padding-right: 96px;
+    padding-bottom: 24px;
+    padding-left: 96px;   
+    background-color: #ECDAC4;
+    z-index: 2;
+}
+.div__list {
+    display: flex;
+    width: 686px;
+    height: 140px;
+    gap: 88px;
+}
+.div__frame1 {
+    display: grid;
+    justify-items: center;
+    width: 170px;
+    height: 140px;
+    gap: 4px;
+}
+.div__frame1 img {
+    width: 36px;
+    height: 36px;    
+}
+.div__frame1 h1 {
+    width: 74px;
+    height: 48px;
+
+    font-family: "Poppins-SemiBold";
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;    
+}
+.div__frame1 p {
+    width: 170px;
+    height: 48px;
+    
+    font-family: "Poppins-Regular";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;    
+}
+.div__imgCen {
+    width: 592px;
+    height: 592px;
+    top: 64px;
+    left: 730px;
+    position: relative;
+}
+.section__cards {
+    width: 1440px;
+    height: 472px;
+    top: 809px;
+    position: absolute;
+    background-color: var(--color-3);  
+  
+}
+.div__cardsTo {
+    display: flex;
+    position: absolute;
+    width: 1314px;
+    height: 286px;
+    top: 138px;
+    left: 53px;
+    gap: 96px;
+    font-family: "AvenirLTStd-Roman";
+}
+.section__textButton {
+    display: flex;
+    position: absolute;
+    width: 464px;
+    height: 498px;
+    top: 157px;
+    left: 126px;
+    gap: 32px;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.section__textButton h1 {
+    width: 464px;
+    height: 240px;
+
+    font-family: "PlayfairDisplay-Bold";
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 0%;    
+}
+.section__textButton p {
+    width: 412px;
+    height: 128px;
+
+   font-family: "display regular";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.99px;
+    letter-spacing: 0%;    
+}
+.section__textButton button {
+    width: 179px;
+    height: 66px;
+    border-radius: 36px;
+    gap: 10px;
+    padding-top: 24px;
+    padding-right: 48px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+    border: none;
+    background-color: var(--color-2);
+
+    font-family: "AvenirLTStd-Roman";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: 0%;   
+    color: azure;
+}
+#p {
+    color: var(--color-1);
+}
