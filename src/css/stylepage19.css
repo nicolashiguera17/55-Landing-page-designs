@@ -1,0 +1,137 @@
+@import url(variablespage19.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section__textImg {
+    display: flex;
+    position: absolute;
+    width: 483px;
+    height: 237px;
+    top: 830px;
+    left: 843px;
+    gap: 16px;
+    
+}
+.div__box {
+    display: flex;
+    flex-direction: column;
+    width: 483px;
+    height: 121px;
+    gap: 6px;    
+   
+}
+.div__box p {
+    width: 483px;
+    height: 60px;
+
+    font-family: Avenir;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30.05px;
+    letter-spacing: 0%;
+}
+.div__box img {
+    width: 463px;
+    height: 100px;
+    gap: 21px;
+  
+}
+.div__Chef {    
+}
+.div__Chef hr {
+    width: 52px;
+    height: 6px;
+    background-color: var(--color-2);
+    background-color: black;
+}
+.div__Chef p {
+    width: 108px;
+    height: 33px;
+
+    font-family: "AvenirLTStd-Medium";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32.78px;
+    letter-spacing: 0%;
+}
+.hr__line {
+ 
+}
+.img__1 {
+}
+.section__imgs {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 648px;
+    height: 369px;
+    top: 698px;
+    left: 115px;
+    border-radius: 144px;
+}
+.main__imgText {
+    width: 1440px;
+    height: 813px;
+    background-color: var(--color-1);
+}
+.main__imgText img {
+    display: flex;
+    position: absolute;
+    width: 690px;
+    height: 671px;
+    top: 86px;
+    left: 686px;
+}
+.section__textButton {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 483px;
+    height: 426px;
+    top: 181px;
+    left: 131px;
+    gap: 20px;
+}
+.section__textButton h1 {
+    width: 422px;
+    height: 188px;
+
+    font-family: "AvenirLTStd-Heavy";
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 94px;
+    letter-spacing: 0%;   
+}
+.section__textButton p {
+    width: 483px;
+    height: 132px;
+
+    font-family: "AvenirLTStd-Roman";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32.78px;
+    letter-spacing: 0%;
+   
+}
+.section__textButton button {
+    display: flex;
+    width: 288px;
+    height: 66px;
+    border-radius: 36px;
+    gap: 10px;
+    padding-top: 24px;
+    padding-right: 48px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+    background-color:black ;
+
+    font-family: "AvenirLTStd-Roman";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: azure;
+    
+}
