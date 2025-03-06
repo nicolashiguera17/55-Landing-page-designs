@@ -1,0 +1,21 @@
+:root{
+    --color-1: #ffffff;
+    --color2: #252525;
+}
+
+@font-face {
+    font-family: "AvenirLTStd-Black";
+    src: url(../storage/fonts/AvenirLTStd-Black.otf);
+}
+@font-face {
+    font-family: "Italic";
+    src: url(../storage/fonts/times/Typography\ Times\ Italic.ttf );
+}
+@font-face {
+    font-family: "Bold";
+    src: url(../storage/fonts/times/Typography\ Times\ Bold.ttf );
+}
+@font-face {
+    font-family: "Regular";
+    src: url(../storage/fonts/times/Typography\ Times\ Regular.ttf );
+}

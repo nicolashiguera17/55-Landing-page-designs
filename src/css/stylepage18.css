@@ -1,0 +1,212 @@
+@import url(variablesPage18.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 1440px;
+    height: 1133px;
+}
+
+
+.img__ritgh {
+    position: absolute;
+    display: flex;
+    width: 355px;
+    height: 296px;
+    top: 118px;
+    left: 71px;
+    gap: 56px;
+    font-family: "Italic";
+}
+.img__left {
+    position: absolute;
+    display: flex;
+    width: 355px;
+    height: 296px;
+    top: 118px;
+    left: 1019px;
+    gap: 56px;
+    font-family: "Italic";
+}
+.section__text {
+    display: flex;
+    position: absolute;
+    width: 105px;
+    height: 174px;
+    top: 895px;
+    left: 1246px;
+    gap: 24px;
+}
+.section__text p {
+    width: 105px;
+    height: 144px;
+
+    font-family: "Italic";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+}
+.hr__line-1 {
+    width: 98px;
+    height: 6px;
+    position: absolute;
+    background-color: black ;
+    margin-top: 165px;
+}
+.section__text-2 {
+    display: flex;
+    position: absolute;
+    width: 177px;
+    height: 174px;
+    top: 480px;
+    left: 90px;
+    gap: 24px;
+}
+.section__text-2 p {
+    width: 177px;
+    height: 144px;
+
+    font-family:"Italic";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 28px;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+.hr__line-2 {
+    width: 162px;
+    height: 6px;
+    position: absolute;
+   background-color: black;
+   margin-top: 165px;
+}
+.section__card-text {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    width: 698px;
+    height: 322px;
+    top: 110px;
+    left: 371px;
+    gap: 24px;
+}
+.section__card-text h1 {
+    width: 698px;
+    height: 160px;
+
+    font-family: "Times New Roman";
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;   
+}
+.section__card-text p {
+    width: 433px;
+    height: 64px;
+
+    font-family: "Regular";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+.section__card-text button {
+    width: 121px;
+    height: 50px;
+    border-radius: 24px;
+    gap: 10px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+   background-color:black ;
+
+    font-family: "popping";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    border: none;   
+    color: azure;
+   
+    
+}
+.section__imgs {
+    display: flex;
+    width: 1261px;
+    height: 582px;
+    top: 487px;
+    left: 90px;    
+}
+.img__1 {
+    display: flex;
+    position: absolute;
+    width: 180px;
+    height: 250px;
+    top: 613px;
+    left: 1171px;
+    border-radius: 16px;
+}
+.div__img-1 {
+    position: absolute;
+    display: grid;
+    width: 257px;
+    height: 541px;
+    top: 528px;
+    left: 890px;
+    gap: 16px;
+}
+.img--1 {
+    width: 257px;
+    height: 273px;
+    border-radius: 16px;
+}
+.img--2 {
+    width: 257px;
+    height: 252px;
+    border-radius: 16px;    
+}
+.img__2 {
+    display: flex;
+    position: absolute;
+    width: 291px;
+    height: 582px;
+    top: 487px;
+    left: 575px;
+    border-radius: 16px;    
+}
+.div__img-2 {
+    position: absolute;
+    display: grid;
+    width: 257px;
+    height: 541px;
+    top: 487px;
+    left: 294px;
+    gap: 16px;    
+}
+.img--3 {
+    width: 257px;
+    height: 273px;
+    border-radius: 16px;
+}
+.img--4 {
+    width: 257px;
+    height: 252px;
+    border-radius: 16px;    
+}
+.img__3 {
+    display: flex;
+    position: absolute;
+    width: 180px;
+    height: 250px;
+    top: 717px;
+    left: 90px;
+    border-radius: 16px;
+}
+
