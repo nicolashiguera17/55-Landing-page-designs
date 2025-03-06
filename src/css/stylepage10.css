@@ -1,0 +1,70 @@
+@import url(variablespage10.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #2F2F2F;
+}
+
+.section__text {
+    width: 449px;
+    height: 582px;
+    position: absolute;
+    top: 169px;
+    left: 132px;
+    gap: 24px;
+}
+span {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 108px;
+    font-family: "Poppins-Bold";
+}
+span:nth-last-child(3) {
+    color: var(--colorTitle1);
+    gap: 24px;
+}
+span:nth-last-child(2) {
+    color: var(--colorTitle2);
+}
+span:nth-last-child(1) {
+    color: var(--colorTitle3);
+}
+.section__text p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--color-1);
+    font-family: "Poppins-Regular";
+
+}
+.section__text button{
+    font-family: "Poppins-Regular";
+    position: relative;
+    width: 182px;
+    height: 66px;
+    border-radius: 36px;
+    padding-top: 24px;
+    padding-right: 48px;
+    padding-left: 48px;
+    padding-bottom: 24px;
+    top: 10px;
+    border: none;
+    background-color: var(--color-1);
+    color: var(--bottonColor);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+    
+}
+
+.section__img {
+    position: relative;
+    width: 742px;
+    height: 792px;
+    top: 67px;
+    left: 634px;
+    gap: 18px;
+}
