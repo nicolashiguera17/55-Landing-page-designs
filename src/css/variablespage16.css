@@ -1,0 +1,23 @@
+:root{
+    --color-1: #ffffff;
+    --colorCard: background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
+    --colorBac: background: linear-gradient(172.29deg, #09212C 15.72%, #043E49 68.5%);
+
+}
+
+@font-face {
+    font-family: "AvenirLTStd-Black";
+    src: url(../storage/font/avenir-font/AvenirLTStd-Black.otf);
+}
+@font-face {
+    font-family: "avenir.roman";
+    src: url(../storage/fonts/Avenir-Roman.otf);
+}
+@font-face {
+    font-family: "avenir.heavy";
+    src: url(../storage/fonts/Avenir-Heavy.otf);
+}
+@font-face {
+    font-family: "poppings-regular";
+    src: url(../storage/fonts/Poppins/Poppins-Regular.ttf);
+}
