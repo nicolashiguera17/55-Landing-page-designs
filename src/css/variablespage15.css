@@ -1,0 +1,13 @@
+:root{
+    --color-1: #ffffff;
+    --button: #457D61;
+}
+
+@font-face {
+    font-family: "AvenirLTStd-Black";
+    src: url(../storage/fonts/AvenirLTStd-Black.otf);
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/fonts/Poppins/Poppins-Regular.ttf);
+}
