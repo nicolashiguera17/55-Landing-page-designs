@@ -1,0 +1,179 @@
+@import url(variablespage13.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 1440px;
+    height: 1024px;
+
+}
+
+.img__1 {
+    position: absolute;
+    width: 255px;
+    height: 320px;
+    top: 237px;
+    left: 311px;
+    border-width: 1.74px;
+}
+.img__2 {
+    position: absolute;
+    width: 191px;
+    height: 242px;
+    top: 535px;
+    left: 921px;
+    border-width: 1.74px;
+}
+.img__3 {
+    position: absolute;
+    width: 174px;
+    height: 173px;
+    top: 647px;
+    left: 1135px;
+}
+.img__4 {
+    position: absolute;
+    width: 179px;
+    height: 176px;
+    top: 256.04px;
+    left: 90.46px;
+    rotate: -101.78 
+}
+.section__card-1 {
+    position: absolute;
+    width: 434;
+    height: 104;
+    top: 99px;
+    left: 64px;
+    gap: 8px;
+}
+
+.p__number-1 {
+    width: 434px;
+    height: 32px;
+
+    font-family: Times;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: var(--color-2);
+}
+.p__text-1 {
+    width: 434px;
+    height: 64px;
+
+    font-family: Times;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: var(--color-3);
+}
+.section__card-2 {
+    position: absolute;
+    width: 434px;
+    height: 104px;
+    top: 812px;
+    left: 942px;
+    gap: 8px;
+}
+.p__number-2 {
+    width: 434px;
+    height: 32px;
+    font-family: Times;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: var(--color-2);
+}
+.p__text-2 {
+    width: 434px;
+    height: 64px;
+    font-family: Times;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: var(--color-3);
+}
+
+.section__text {
+    position: absolute;
+    width: 637;
+    height: 692;
+    top: 182px;
+    left: 401px;
+    text-align: center;
+}
+.section__text img {
+    z-index: -2;
+    position: absolute;
+    width: 446;
+    height: 711;
+    left: 95px;
+}
+.section__text h1 {
+    width: 637px;
+    height: 324px;
+
+    font-family: Times;
+    font-weight: 400;
+    font-size: 112px;
+    line-height: 108px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--color-4);
+}
+.section__text p {
+    width: 497px;
+    height: 162px;
+    padding-left: 154px;
+
+    font-family: Times;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--color-3);
+}
+.section__text button {
+    width: 182;
+    height: 66;
+    gap: 10px;
+    border-radius: 36px;
+    padding-top: 24px;
+    padding-right: 48px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+    border: none;
+    background: var(--color-4);
+
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: var(--color-1);
+}
+
+.img__prin-1 {
+    z-index: -1;
+    position: absolute;
+    width: 412px;
+    height: 528px;
+    top: 432px;
+    left: 64px;
+}
+.img__prin-2 {
+    z-index: -1;
+    position: absolute;
+    width: 412px;
+    height: 528px;
+    top: 64px;
+    left: 964px;
+}

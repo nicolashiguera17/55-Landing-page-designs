@@ -1,0 +1,12 @@
+:root{
+    --color-1: #ffffff;
+    --color-2: hsla(0, 0%, 15%, 0.45);
+    --color-3: hsla(0, 0%, 15%, 0.8);
+    --color-4: #252525;
+    
+}
+
+@font-face {
+    font-family: "AvenirLTStd-Black";
+    src: url(../storage/fonts/AvenirLTStd-Black.otf);
+}
