@@ -4,3 +4,139 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    display: flex;
+    background: background linear-gradient(172.29deg, #09212C 15.72%, #043E49 68.5%);
+    width: 1440px;
+    height: 1024px;
+}
+
+h1 {
+    color: var(--color-1);
+}
+p {
+    color: var(--color-1);
+}
+
+
+.img__bac {
+    background-image: url(../storage/img/AI\ image\ -\ OpenAI.png) ;
+    width: 1024px;
+    height: 1024px;
+    left: 416px;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.section__card {
+    position: absolute;
+    display: flex;
+    width: 1312px;
+    height: 171px;
+    top: 791px;
+    left: 64px;
+    gap: 92px;
+    border-radius: 32px;
+    padding-top: 24px;
+    padding-right: 56px;
+    padding-bottom: 24px;
+    padding-left: 56px;
+    border-width: 1px;
+
+    border: 1px solid;
+    backdrop-filter: blur(8px)
+}
+.div__card-1 img {
+    width: 24px;
+    height: 24px;
+}
+.div__card-1 h1 {
+    width: 82px;
+    height: 33px;
+
+    font-family: "avenir.heavy";
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32.78px;
+    letter-spacing: 0%;
+}
+.div__card-1 p {
+    width: 231px;
+    height: 50px;
+
+    font-family: "avenir.roman";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: 0%;
+}
+
+.section__text {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 724px;
+    height: 518px;
+    top: 193px;
+    left: 64px;
+    gap: 8px;
+    border-radius: 24px;
+    padding-top: 40px;
+    padding-right: 56px;
+    padding-bottom: 40px;
+    padding-left: 56px;
+
+    background: linear-gradient(124.42deg, rgba(0, 0, 0, 0.36) 5.12%, rgba(0, 0, 0, 0.0675) 102.99%);
+    backdrop-filter: blur(8px)
+}
+.div__texImg {
+    width: 612px;
+    height: 184px;
+}
+.div__texImg img {
+    width: 80px;
+    height: 16px;
+}
+.div__texImg h1 {
+    width: 612;
+    height: 144;
+
+    font-family: "avenir.heavy";
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: 0%;
+}
+.section__text p {
+    width: 586;
+    height: 108;
+
+    font-family: "avenir.roman";
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35.52px;
+    letter-spacing: 0%;
+
+}
+
+.section__text button {
+    width: 182px;
+    height: 66px;
+    gap: 10px;
+    border-radius: 36px;
+    padding-top: 24px;
+    padding-right: 48px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+
+    box-shadow: 0px 0px 20px 0px #63E1E140;
+    background: #63E1E1;
+    border: none;
+
+    font-family: "poppings-regular";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: 0%;
+}

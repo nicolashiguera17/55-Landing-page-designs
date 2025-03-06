@@ -9,5 +9,15 @@
     font-family: "AvenirLTStd-Black";
     src: url(../storage/font/avenir-font/AvenirLTStd-Black.otf);
 }
-
-
+@font-face {
+    font-family: "avenir.roman";
+    src: url(../storage/fonts/Avenir-Roman.otf);
+}
+@font-face {
+    font-family: "avenir.heavy";
+    src: url(../storage/fonts/Avenir-Heavy.otf);
+}
+@font-face {
+    font-family: "poppings-regular";
+    src: url(../storage/fonts/Poppins/Poppins-Regular.ttf);
+}
