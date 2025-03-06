@@ -1,0 +1,63 @@
+@import url(variablespage7.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 1440px;
+    height: 926px;
+    display: flex;
+    justify-self: center;   
+    flex-direction: column; 
+}
+
+.section__text {
+    width: 833px;
+    height: 176px;
+    margin-top: 64px;
+    margin-left: 64px;
+}
+.section__text h1{
+    font-size: 72px;
+    font-family: "AvenirLTStd-Heavy";
+    color: var(--color-2);
+}
+.section__images{
+    width: 1312px;
+    height: 559px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-left: 64px;
+
+}
+
+.article__frame{
+    width: 316px;
+    height: 559px;
+    display: flex;
+    flex-direction: column;
+} 
+.article__frame h1 {
+    font-family: "AvenirLTStd-Heavy";
+    font-size: 40px;
+    color: var(--color-2);
+    opacity: 35%;
+}
+.article__frame p {
+    font-family: "AvenirLTStd-Roman";
+    font-size: 24px;
+    margin-top: 12px;
+    color: var(--color-2);
+    opacity: 80%;
+}
+.article__frame img {
+    width: 316px;
+    height: 402px;
+    margin-top: 24px;
+}
+
