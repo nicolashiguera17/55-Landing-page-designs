@@ -1,0 +1,1 @@
+para ingregsar a la landing page tendrias que colocar views/page y el numero de la page que deseas ver.Para ver la page 1 y 2 es con el menos antes (ejmp: page-1) y ya el resto si es sin el menos (ejm:page3)
